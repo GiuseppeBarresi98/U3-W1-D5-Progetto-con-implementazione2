@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Smarthphone</title>
+  </head>
+
+  <body>
+    <div class="phone">
+      <div class="screen">
+        <h1>Il mio Smartphone</h1>
+        <h4 id="contatore"></h4>
+        <h3 id="ul-two"></h3>
+      </div>
+      <div class="buttons">
+        <div class="first-butt">
+          <button id="numero-chiamate">Numero Chiamate</button>
+          <button id="azzera-numero-chiamate">Azzera n.Chiamate</button>
+          <form action="">
+            <button id="credito-residuo-button">Credito residuo</button>
+            <input type="text" id="credito-residuo" style="display: none" />
+          </form>
+        </div>
+        <div class="ricarica-div">
+          <form action="">
+            <button id="ricarica">Ricarica</button>
+            <input
+              id="ricarica-input"
+              type="text"
+              placeholder="inserisci importo"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="numeroebottone">
+        <form action="">
+          <button id="chiama">Chiama!</button>
+          <input
+            type="text"
+            name=""
+            id="number"
+            placeholder="Inserisci il numero da chiamare"
+            required
+          />
+        </form>
+      </div>
+      <div id="Outputpulsanti">
+        <ul id="ul"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
